@@ -30,3 +30,6 @@ df.drop_duplicates(inplace =True)
 df.reset_index(drop=True, inplace=True) #remove duplicate rows
 print("--FINAL SHAPE AFTER CLEANING--")
 print(df.shape) #verification
+#cleaned file
+df.to_csv(r"D:\Data Analytics using Python\netflix_data_cleaned.csv", index=False)
+
